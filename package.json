@@ -1,0 +1,18 @@
+{
+  "name": "ArtOfJavascriptProgramming",
+  "version": "0.0.1",
+  "description": "Implementation of 'Art of Computer Programming' algorithms in ES6.",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur **/**/*.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "jlott",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^2.1.1",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.1",
+    "webpack-dev-server": "^1.6.5",
+    "webpack-traceur-loader": "^0.3.0"
+  }
+}
